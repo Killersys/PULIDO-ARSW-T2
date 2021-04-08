@@ -20,7 +20,7 @@ public class WeatherController {
 	
 	@GetMapping("/name/{name}")
 	public String getWeatherByCityName(@PathVariable ("name") String name) {
-		JSONObject json = weatherServices.clima(name);
+		JSONObject json = weatherServices.wea(name);
 		String text=json.toString();
 		return text;
 	}

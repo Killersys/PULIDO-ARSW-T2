@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Open Weather</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+
+</head>
+
+
+<body>
+<div class="container">
+    <span style="border-image: initial; border: 1px solid rgb(0, 0, 0);">PARCIAL ARSW 2</span>
+    <br>
+    <p>
+        <label for="fname">Ciudad: </label> <input type="text" id="city"
+			placeholder="Nombre de la Ciudad" required>
+        <button type="button" class="btn btn-light" id="buttonBlueprints"
+        onclick="app.buscar(city.value);">Buscar</button>
+    </p>
+
+    <table class="table table-striped" id="table">
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">Country code</th>
+            <th scope="col">City</th>
+            <th scope="col">Weather</th>
+            <th scope="col">Description</th>
+            <th scope="col">Temperature (°C)</th>
+            <th scope="col">Thermal sensation (°C)</th>
+        </tr>
+        </thead>
+    </table>
+    
+
+
+</div>
+</body>
+
+<footer class="text-center">
+    <br/>
+
+</footer>
+
+
+</html>
